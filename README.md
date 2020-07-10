@@ -1,4 +1,4 @@
-# Birthday-Store-Wish
+ # Birthday-Store-Wish
 
-Sqlite Database
-List View
+1. SQLite Database
+2. List View
