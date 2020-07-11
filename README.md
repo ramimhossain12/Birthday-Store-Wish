@@ -5,5 +5,5 @@
 
 # Features:
 
-1. SQLite Database
-2. List View
+* SQLite Database
+* List View
