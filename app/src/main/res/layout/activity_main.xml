@@ -57,8 +57,9 @@
             android:text="Save"
             android:layout_marginTop="10dp"
             android:textColor="#000000"
+            android:backgroundTint="#03A9F4"
             android:textSize="20sp"
-            android:background="#2196F3"/>
+            android:background="@drawable/btnshape"/>
 
         <Button
             android:id="@+id/show"
@@ -71,7 +72,8 @@
 
             android:textSize="20sp"
             android:layout_marginTop="10dp"
-            android:background="#E91E63"/>
+            android:backgroundTint="#E91E63"
+            android:background="@drawable/btnshape"/>
 
 
     </LinearLayout>
