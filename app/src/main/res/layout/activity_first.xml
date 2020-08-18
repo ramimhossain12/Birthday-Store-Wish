@@ -10,52 +10,26 @@
     tools:context=".FirstActivity">
 
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="50sp"
-        android:text="Birthday Wish List"
-        android:gravity="center"
 
-        android:textColor="#FF5722"
-         />
-    <ImageView
-        android:layout_width="270dp"
-        android:layout_height="wrap_content"
-        android:src="@drawable/gift"
-        android:layout_gravity="center"
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        app:lottie_fileName="birthday.json"
+        android:scaleType="fitCenter"
+        app:lottie_autoPlay="true"
+        android:layout_centerInParent="true"
+        app:lottie_loop="true"/>
+
+
+    <ProgressBar
+        android:id="@+id/progreesbarID"
+        android:layout_width="match_parent"
+        android:layout_height="9dp"
+        android:layout_margin="20dp"
+
         />
-
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="end"
-         >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#ffff"
-            android:textColorLink="#3F51B5"
-            android:textSize="36dp"
-            android:id="@+id/textID"
-            android:text="Please Click"/>
-
-
-        <ImageView
-            android:layout_width="180dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/imgID"
-            android:src="@drawable/arrow"
-
-
-            />
-    </LinearLayout>
-
-
 
 
 </LinearLayout>

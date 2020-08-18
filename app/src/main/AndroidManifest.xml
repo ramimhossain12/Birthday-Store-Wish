@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.birthdaystoreapps">
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".FeadbackActivity"></activity>
+        <activity android:name=".about" />
+        <activity android:name=".WishActivity" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".SingleBday" />
         <activity android:name=".Birthdaystore" />
         <activity android:name=".FirstActivity">
