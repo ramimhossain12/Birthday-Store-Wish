@@ -2,4 +2,6 @@
     <string name="app_name">Birthday Store Apps</string>
     <string name="about_o">Md.Ramim Hossain\nEmail:ramim.cse.info@gmail.com</string>
     <string name="about_t">Studying in Computer Science and Engineering at Daffodil International University. Passionate about android  and ios app development. Love to build android and ios application.</string>
+    <string name="add"> Enter his/her birthday:  \nEnter his/her address: \nPhone number:</string>
+    <string name="name">Enter friend\'s name:</string>
 </resources>

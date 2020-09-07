@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_SEND)
             intent.type = "text/type"
             val subject = "Note_Book app"
-            val body = "This app  is very useful .\n com.example.notepad"
+            val body = "This app  is very useful .\n com.example.birthdaystoreapps"
             intent.putExtra(Intent.EXTRA_SUBJECT, subject)
             intent.putExtra(Intent.EXTRA_TEXT, body)
             startActivity(Intent.createChooser(intent, "share with"))

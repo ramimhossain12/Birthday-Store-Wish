@@ -12,31 +12,22 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_margin="20dp"
-        android:hint="Enter friend's name"
+        android:hint="@string/name"
         android:paddingLeft="8dp"
         android:background="#f9f9f9"/>
 
     <EditText
         android:id="@+id/bday"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="100dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"
         android:background="#f9f9f9"
         android:paddingLeft="8dp"
-        android:hint="Enter his/her birthday"/>
+        android:hint="@string/add"/>
 
-    <EditText
-        android:id="@+id/add"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="20dp"
-        android:background="#f9f9f9"
-        android:paddingLeft="8dp"
-        android:hint="Enter his/her address"/>
+
 
 
     <LinearLayout
